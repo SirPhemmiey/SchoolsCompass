@@ -1,0 +1,34 @@
+@media only screen  and (max-device-width: 600px) and (min-device-width: 320px) {
+	.flex-list-item {
+		font-size: 0.5rem;
+	}	
+	
+	section {
+		margin: 15px; 
+	}
+
+	.row-padding {
+		padding: 0;
+	}
+	.search-area {
+    	padding: 5px 20px;
+	}	
+	.banner-head {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.action {
+		width: 100%!important;
+	}
+	.action-wrap {
+		padding: 0 5px;
+	}
+	.flex-form {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;  
+	}
+	.flex-form select {
+		width: 100%;
+	}
+}
